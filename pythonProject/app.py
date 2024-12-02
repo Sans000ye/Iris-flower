@@ -1,9 +1,9 @@
 from pandas import read_csv
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import classification_report
-from sklearn.metrics import confusion_matrix
-from sklearn.model_selection import train_test_split
-from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score # type: ignore
+from sklearn.metrics import classification_report # type: ignore
+from sklearn.metrics import confusion_matrix # type: ignore
+from sklearn.model_selection import train_test_split # type: ignore
+from sklearn.svm import SVC # type: ignore
 
 # Load dataset
 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
